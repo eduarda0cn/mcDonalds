@@ -1,0 +1,248 @@
+body {   /*ajuste para a tag body*/
+    margin: 0px; /*Ajuste as margens dos cantos do site */
+    padding: 0px; /* Ajuste as margens dos cantos do site */
+}
+
+.iconeredes {
+    display: flex; /* Deixa os elementos na horizontal */
+    align-items: center;
+    margin-top: 20px; /* alinhamento dos ícones ao centro */
+    list-style: none; /* Define o tipo de lista, neste caso sem o ponto */
+    position: absolute; /* posição absoluta */
+    margin-left: 202px; /* Ajuste a margem externa da esquerda */
+    padding-left: 0px; /* Ajuste a margim interna da esquerda */
+}
+
+.facebook{ /* Ajuste o tamanho do ícone facebook */
+    width: 26px; /* Ajusta largura */
+    height: auto; /* Ajusta altura automático */
+}
+
+.insta{ /* Ajuste o tamanho do ícone insta */
+    width: 26px; /* Ajusta largura */
+    height: auto; /* Ajusta altura automático */
+}
+
+.twitter{ /* Ajuste o tamanho do ícone twitter */
+    width: 26px; /* Ajusta largura */
+    height: auto; /* Ajusta altura automático */
+}
+
+.youtube{ /* Ajuste o tamanho do ícone youtube */
+    width: 26px; /* Ajusta largura */
+    height: auto; /* Ajusta altura automático */
+}
+
+.iconeredes li { /* Ajuste o espaçamento entre os ícones */
+    margin-left: 23px; /* Ajuste da margem esquerda */
+}
+
+.botoes-login-criarconta {
+    position: absolute; /* habilita as alterações de posição */
+    margin-left: 1467px; /* Ajuste da margem esquerda */
+    margin-top: 25px; /* Ajuste da margem do topo */
+}
+
+.botao-login,
+.botao-criarconta{ 
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #ffbc0d;
+    color: #db0007;
+    border: none;
+    border-radius: 90px;
+    cursor: pointer;
+    margin-left:18px;
+}
+
+.botao-login:hover, /* Usamos o :hover para mudar a cor quando passamos o mouse */
+.botao-criarconta:hover{  
+    background-color: #fff; /* muda a  cor do fundo do botao*/
+    color: #db0007; /* muda a cor do texto do botão*/
+}
+
+nav {
+    background-color: #db0007; /* muda a cor do fundo do menu*/
+    padding: 0px; /*  deixa o espaçamento interno*/
+}
+nav ul{
+    list-style: none;/*  define o tipo de lista, nesse caso, sem o ponto*/
+    padding-top: 0px; /* deixa o espaçamento interno no topo*/
+    padding-bottom: 30px; /*  coloca o espaçamento interno no botão*/
+    margin: 0px; /* deixa o espaçamento externo*/
+    display: flex; /* deixa a lista na horizontal*/
+    justify-content: center; /* justifica o conteúdo no centro*/
+    font-family: 'Roboto' , sans-serif;/* Define o tipo de fonte - robota e sem serifa*/
+    font-weight: bold;/* define a familia da fonte - bold */
+    font-size: 20px; /*  define o tamanho da fonte*/
+}
+
+nav li {
+    margin-left: 56px;/*  define o espaçamento externo esquerda*/
+    margin-right: 56px; /* defnine o espaçamento externo direito*/
+    padding-top: 86px; /* define o espaçamento interno no topo*/
+}
+
+nav a {
+    color: #ffbc0d; /* define a cor do texto*/
+    text-decoration: none; /* NONE - tira o sublinhado do texto*/
+}
+
+nav a:hover { /* usamos o :hover para mudar a cor quando pasa o mouse por cima*/
+    color: white; /* define a cor do texto*/
+}
+
+
+.logomc {
+    width: auto; /* deixa a largura na medida automatica*/
+    height: 80px;/* define o tamanho da altura*/
+    padding-top: 42px; /* define o esoaço interno do topo*/
+    padding-bottom: 0px; /* define o espaço entre o botão*/
+}
+
+.banner img {
+    position: relative; /*  ajusta a posição do banner de acordo com o tamanho da pagina*/
+    height: auto; /*  deixa a altura na medida automatica*/
+    width: 100%; /* deixa a largura na medida 100% ajustada as laterais*/
+}
+
+.iconemc {
+    height: auto; /*  deixa a altura na medida automatica*/
+    width: 10px; /* define o tamanho da autura*/
+}
+
+.oferta-do-dia{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 73px;
+    margin-right: 141px;
+}
+.oferta-do-dia2{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 86px;
+    margin-right: 65px;
+}
+
+.oferta-do-dia3 {
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 110px;
+}
+
+.oferta-do-dia h2 {
+    font-family: 'Roboto', san;
+    font-size: 30px;
+    font-weight: bold;
+    color: #db0007;
+}
+
+.linha-amarela-left,
+ .linha-amarela-rigt {
+    position: absolute;
+    top: 839px;
+    height: 7px;
+    width: 560px;
+    background-color: #ffbc0d;
+    border-radius: 61px;
+ }
+
+.linha-amarela-left{
+    left: 240px;
+}
+
+.linha-amarela-rigt{
+    right: 240px;
+}
+
+.ofertas-imagens {
+    display: flex;
+    padding: 0px;
+}
+
+.mc {
+    width: 200px;
+    height: 200px;
+}
+
+.preco {
+    position: relative;
+    top: -70px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #db0007;
+}
+.descricao h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+}
+
+.descricao {
+    margin-top: -20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.comprar {
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #db0007;
+    color: #ffbc0d;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-bottom: 82px;
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+.comprar:hover {
+    background-color: #ffbc0d;
+    color: #db0007;
+}
+
+.linha {
+    position: absolute;
+    margin-top: -37px;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    height: 3px;
+    width: 1740px;
+    background-color: #E1E1E1;
+    border-radius: 20px;
+}
+
+.conteudorodape {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.conteudorodape ol {
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    list-style: none;
+    padding-bottom: 0px;   
+}
+
+.colunal li, .coluna2 li, .coluna3 li{
+    padding: 15px;
+}
+
+.copy {
+    background-color: #db0007;
+    color: #ffbc0d;
+    text-align: center;
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
